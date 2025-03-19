@@ -1,6 +1,6 @@
 # Purpose of this repository
 
-This repository is for the share of Umakoshi's master thesis.
+This repository is for a material of M1 introduction in 2025
 
 **Contact**: *umakoshi[at]icepp.s.u-tokyo.ac.jp*
 
