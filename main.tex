@@ -60,6 +60,9 @@
 % tableのパッケージ
 \usepackage{tabularx}
 
+% 文中に回り込んで図を配置する
+\usepackage{wrapfig}
+
 %% % SI単位系の単位を表示する
 %% \usepackage{siunitx}
 
@@ -121,7 +124,9 @@
 \newacro{COBRA}{COnstant Bending RAdius}
 
 % 氏名などの情報が入っているファイル。各自で編集。
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
 \input{AuthorInfo}
+\renewcommand{\thefootnote}{\arabic{footnote}}
 
 \begin{document}
 
